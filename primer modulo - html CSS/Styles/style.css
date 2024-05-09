@@ -3,32 +3,63 @@
     padding: 0;
 }
 
+body {
+    background-image: url(../Assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
 header {
-    background-color: violet;
+    background-color: blueviolet;
     display: flex;
+   
+}
+
+a { 
+    align-items: end;   
 }
 
 .descripcion {
-    background-color: green;
-    display: flex;
 
+    display: flex;
 
 }
 
+.descripcion img {
+    width: 30%;
+    border-radius: 50px;
+    
 
+
+}
 .cont-desc1 {
+    opacity: 1000;
     margin: 30px;
     padding: 100px;
+    border: 3px solid rgb(57, 53, 53);
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgba(88, 66, 90, 0.5); 
+    padding: 20px;
 }
 
 .cont-cat {
     max-width: 1000px;
-    background-color: aquamarine;
-    margin: 10px;
+    margin: 100px;
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
 
 .cat1 {
@@ -36,7 +67,7 @@ header {
     padding: 10px;
     text-align: center;
     border: 2px solid black;
-    background-color: yellowgreen;
+
 }
 
 .cat1 img {
@@ -45,7 +76,6 @@ header {
 
 .cont-prod {
     max-width: 1000px;
-    background-color: aquamarine;
     margin: 10px;
     padding: 50px;
     display: grid;
@@ -58,7 +88,8 @@ header {
     padding: 10px;
     text-align: center;
     border: 2px solid black;
-    background-color: yellowgreen;
+    background-color: rgba(88, 66, 90, 0.5); 
+    border-radius: 20px;
 }
 
 .prod1 img {
@@ -69,11 +100,17 @@ header {
     padding: 100px;
     margin: 10px;
     align-items: center;
-
 }
 
 .cont-formulario {
     width: 500px;
+    box-shadow: 13px 10px 28px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 13px 10px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 10px 28px 0px rgba(0,0,0,0.75);
+    background-color: rgba(88, 66, 90, 0.5); 
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
 }
 
 form {
@@ -82,42 +119,68 @@ form {
     border-radius: 10px;
 }
 
-input , textarea {
+input,
+textarea {
     width: 100%;
     border-radius: 5px;
     border: 1px solid rgb(219, 211, 211);
     margin-top: 10px;
     padding-top: 10px;
     margin-bottom: 15px;
-  }
-  
-  #mensaje {
+}
+
+#mensaje {
     margin-top: 10px;
     padding-top: 30px;
-  }
+}
 
-  button { 
+button {
     background-color: rgb(104, 24, 104);
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
     color: white;
     cursor: pointer;
-  }
+}
 
-  button:hover {
+button:hover {
     background-color: violet;
-  }
+}
 
-  .cont-info {
+.cont-info {
     display: column;
-  }
+}
 
-  .informacion {
+.informacion {
     padding: 30px;
     margin: 10px;
-  }
+}
 
-  .cont-info a {
+footer {
+
+}
+
+.cont-info a {
     display: flex;
-  }
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 0px 0px black,
+        0px 1px 0px black,
+        -1px 0px 0px black,
+        0px -1px 0px black;
+
+}
+
+p {
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
