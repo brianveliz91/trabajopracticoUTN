@@ -9,18 +9,18 @@ body {
     background-repeat: repeat;
     background-position: center;
 
-    
+
     justify-content: center;
     align-items: center;
-    
-  
+
+
 }
 
 header {
     background-color: blueviolet;
     display: flex;
     text-align: right;
-   
+
 }
 
 header div a {
@@ -31,19 +31,20 @@ header div a {
 }
 
 .descripcion {
- display: flex;
- margin: 10px;
- padding: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
 
 }
 
 .descripcion img {
     width: 30%;
     border-radius: 50px;
-    
+
 
 
 }
+
 .cont-desc1 {
     opacity: 1000;
     margin: 30px;
@@ -52,19 +53,19 @@ header div a {
     margin: 50px auto;
     border-radius: 10px;
     width: 50%;
-    background-color: rgba(88, 66, 90, 0.5); 
+    background-color: rgba(88, 66, 90, 0.5);
     padding: 20px;
 }
 
 .cont-cat {
-    
-  
+
+
     display: flex;
     justify-content: center;
     gap: 10px;
-    
-    
-    
+
+
+
 }
 
 .cat1 {
@@ -74,7 +75,7 @@ header div a {
     padding: 10px;
     text-align: center;
     border: 2px solid black;
-    background-color: rgba(88, 66, 90, 0.5); 
+    background-color: rgba(88, 66, 90, 0.5);
     border-radius: 20px;
 
 }
@@ -85,7 +86,7 @@ header div a {
 }
 
 .cont-prod {
-    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -98,7 +99,7 @@ header div a {
     padding: 10px;
     text-align: center;
     border: 2px solid black;
-    background-color: rgba(88, 66, 90, 0.5); 
+    background-color: rgba(88, 66, 90, 0.5);
     border-radius: 20px;
 }
 
@@ -114,11 +115,11 @@ header div a {
 }
 
 .cont-formulario {
-   
-    box-shadow: 13px 10px 28px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 13px 10px 28px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 13px 10px 28px 0px rgba(0,0,0,0.75);
-    background-color: rgba(88, 66, 90, 0.5); 
+
+    box-shadow: 13px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 13px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgba(88, 66, 90, 0.5);
     padding: 20px;
     border-radius: 20px;
     align-items: center;
@@ -159,15 +160,16 @@ button:hover {
 }
 
 .informacion {
-  background-color: white;
-  
+    background-color: white;
+
 }
 
 .cont-info a {
     display: flex;
- }
+}
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     color: blueviolet;
     font-family: "Poetsen One", sans-serif;
@@ -192,25 +194,4 @@ p {
     height: 0;
     border-right: 100vh solid transparent;
     border-bottom: 13.9vh solid red;
-}
-
-@media (max-width: 880px) {
-    .cont-prod {
-    
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-    
-
-}
-
-@media (max max-width 480px) {
-    .cont-prod {
-    
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-    }
-    
 }
