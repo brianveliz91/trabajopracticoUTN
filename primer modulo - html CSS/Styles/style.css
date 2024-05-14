@@ -44,6 +44,14 @@ header {
     gap: 60px;
     margin: 10px;
     padding: 10px;
+    
+}
+
+.cont-desc1 {
+    border: 2px solid black;
+    background-color: rgba(88, 66, 90, 0.5);
+    border-radius: 20px;
+    padding: 40px;
 }
 
 #descripcion img {
@@ -216,4 +224,29 @@ p, a, button {
 :root {
     --color-primary: blueviolet;
     --color-secundary: white;
+}
+
+@media (max-width: 880px) {
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #descripcion, .cont-cat, .cont-prod {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #descripcion img {
+        width: 250px;
+        height: 250px;
+        border-radius: 30px;
+    }
+
+    .cont-formulario h1 {
+        font-size: 32px;
+    }
 }
