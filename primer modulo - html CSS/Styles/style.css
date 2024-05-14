@@ -148,23 +148,31 @@ button:hover {
 }
 
 .informacion {
-    background-color: white;
-
+    background-color: blueviolet;
+    padding: 20px;
 }
 
 .cont-info a {
     display: flex;
 }
 
+label {
+    font-family: 'Pacifico', cursive;
+}
+
+input, textarea {
+    text-align: left;
+    padding: 5px;
+}
+
 h1,
 h2 {
     text-align: center;
-    color: blueviolet;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    color: white;
+    color: var(--color-secundary);
     text-shadow: 1px 0px 0px black,
         0px 1px 0px black,
         -1px 0px 0px black,
@@ -172,14 +180,40 @@ h2 {
 
 }
 
-p {
+p, a, button {
     color: white;
     font-family: 'Pacifico', cursive;
+}
+
+.wp-container {
+    margin-right: 20px;
 }
 
 .separacion {
     width: 0;
     height: 0;
-    border-right: 100vh solid transparent;
-    border-bottom: 13.9vh solid red;
+    border-right: 100vw solid transparent;
+    border-bottom: 10vw solid blueviolet;
+    margin-top: 0;
+}
+
+.red-social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    size: 32px;
+}
+
+.red-social a {
+    color: black;
+    text-decoration: none;
+}
+
+.red-social:hover, a:hover {
+    color: aqua;
+}
+
+:root {
+    --color-primary: blueviolet;
+    --color-secundary: white;
 }
