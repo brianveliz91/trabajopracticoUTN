@@ -97,16 +97,17 @@ header {
     height: 250px;
 }
 
-.formulario {
+
+#formulario {
     display: flex;
-    width: 100vh;
-    padding: 10px;
-    margin: 10px;
+    flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .cont-formulario {
-
+    width: 60%;
+    margin: 20px;
     box-shadow: 13px 10px 28px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 13px 10px 28px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 13px 10px 28px 0px rgba(0, 0, 0, 0.75);
@@ -132,10 +133,6 @@ textarea {
     margin-bottom: 15px;
 }
 
-#mensaje {
-    margin-top: 10px;
-    padding-top: 30px;
-}
 
 button {
     background-color: rgb(104, 24, 104);
